@@ -27,12 +27,7 @@ setup(
     version='1.2.2',
     description="Recognize faces from Python or from the command line",
     long_description=readme + '\n\n' + history,
-    author="Adam Geitgey",
-    author_email='ageitgey@gmail.com',
-    url='https://github.com/ageitgey/face_recognition',
-    packages=[
-        'face_recognition',
-    ],
+    author="Himanshu Srivastava"
     package_dir={'face_recognition': 'face_recognition'},
     package_data={
         'face_recognition': ['models/*.dat']
@@ -44,13 +39,13 @@ setup(
         ]
     },
     install_requires=requirements,
-    license="MIT license",
+    license="",
     zip_safe=False,
     keywords='face_recognition',
     classifiers=[
         'Development Status :: 4 - Beta',
         'Intended Audience :: Developers',
-        'License :: OSI Approved :: MIT License',
+        'License :: OSI Approved ',
         'Natural Language :: English',
         "Programming Language :: Python :: 2",
         'Programming Language :: Python :: 2.6',
